@@ -183,7 +183,6 @@
       -->
       <properties>
         <java.version>1.7</java.version>
-        <java.home>${env.JAVA7_HOME}</java.home>
         <java.libs>${java.home}/jre/lib</java.libs>
         <java.bootclasspath>${java.libs}/rt.jar${path.separator}${java.libs}/jce.jar</java.bootclasspath>
       </properties>
@@ -192,7 +191,6 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.3</version>
             <configuration>
               <source>${java.version}</source>
               <target>${java.version}</target>
