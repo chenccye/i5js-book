@@ -83,3 +83,12 @@ public class PdfExport extends PdfPageEventHelper{
     }  
 }  
 ```
+
+生条形码
+```gradle
+    compile("net.sf.barcode4j:barcode4j-light:2.0") {
+        exclude module: 'xml-apis'
+    }
+```
+java生成条形码 https://www.jianshu.com/p/703137933c56
+
