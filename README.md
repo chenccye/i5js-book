@@ -2,6 +2,8 @@
 ---
 These are the examples written in the context of the book "iText in Action - Second Editon" (2010)
 
+水印遮挡文字的问题：`img.setAlignment(Image.UNDERLYING);`
+
 iText生成PDF文件，每页显示页码以及总页数的实现  
 http://honda418.iteye.com/blog/513746  
 ```java
